@@ -1,0 +1,20 @@
+{
+  "name": "mevn-nuxt-boilerplate",
+  "version": "1.0.0",
+  "description": "MEVN boilerplate with SSR capability as provided by Nuxt-js",
+  "author": "jamesgeorge007",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
