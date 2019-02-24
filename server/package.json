@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server side part for MEVN Nuxt Boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha --exit --compilers js:babel-core/register ./test/*.spec.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon index.js",
     "lint": "standard"
   },
-  "author": "",
+  "author": "James George<jamesgeorge998001@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "app-root-path": "^2.1.0",
