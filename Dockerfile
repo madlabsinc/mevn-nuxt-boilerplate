@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:10
+FROM nginx:alpine
 
 RUN apk add --update \
 	nodejs-npm
@@ -11,7 +11,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 9000
+EXPOSE 8080
 
-CMD ["npm", "start"]
-
+CMD ["npm", "run", "dev"]
