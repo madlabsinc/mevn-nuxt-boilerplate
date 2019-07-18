@@ -2,21 +2,7 @@
 
 > MEVN boilerplate with SSR capability as provided by Nuxt-js
 
-## Build Setup
+## Status
 
-``` bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+- Deprecated as per Mevn-CLI `v1.6`
+- Moved [here](http://github.com/madlabsinc/mevn-starter-templates/tree/nuxt)
